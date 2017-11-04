@@ -10,9 +10,7 @@ public class ChatMessage {
     private String sender;
     private Date received;
 
-    public String getMessage() {
-        return message;
-    }
+    public String getMessage() { return message; }
 
     public void setMessage(String message) {
         this.message = message;

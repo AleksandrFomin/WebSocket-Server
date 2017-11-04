@@ -8,7 +8,7 @@ import java.util.Set;
 import rest.restservice;
 
 //Defines the base URI for all resource URIs.
-@ApplicationPath("/")
+@ApplicationPath("/rest")
 //The java class declares root resource and provider classes
 public class MyApplication extends Application{
     //The method returns a non-empty collection with classes, that must be included in the published JAX-RS application
